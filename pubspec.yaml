@@ -1,10 +1,10 @@
 name: strip_markdown
 description: A Dart package that removes Markdown formatting from text, converting it to plain text. Port of the popular Node.js remove-markdown package. Supports headers, emphasis, links, images, code blocks, lists, blockquotes, and more.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/FaFre/strip_markdown
 
 environment:
-  sdk: ^3.8.1
+  sdk: ^3.8.0
 
 # Add regular dependencies here.
 dependencies:
