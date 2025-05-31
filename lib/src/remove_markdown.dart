@@ -73,7 +73,7 @@ String removeMd(String md, [RemoveMarkdownOptions? options]) {
         )
         // Remove inline links
         .replaceAllMapped(
-          RegExp(r'\[([\s\S]*?)\]\s*[\(\[].*?[\)\]]'),
+          RegExp(r'\[([^\]]*?)\][\[\(].*?[\]\)]'),
           (match) => options!.replaceLinksWithURL
               ? (match.group(2) ?? '')
               : (match.group(1) ?? ''),
