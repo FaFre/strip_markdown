@@ -88,7 +88,7 @@ This package supports removing:
 
 This is a Dart port of the Node.js [remove-markdown](https://github.com/zuchka/remove-markdown) package.
 
-The original JavaScript code is based on [Markdown Service Tools - Strip Markdown](http://brettterpstra.com/2013/10/18/a-markdown-service-to-strip-markdown/) by Brett Terpstra.
+The original JavaScript code is based on **Markdown Service Tools - Strip Markdown** by Brett Terpstra.
 
 ### Original Authors
 - Stian Grytøyr (original creator)
